@@ -44,4 +44,13 @@ body {
 
 .navbar {
   background-color: #d1e0fd;
+  color: #384a72;
+}
+
+h1 {
+  color: #97afdb;
+}
+
+h2 {
+  color: #97afdb;
 }

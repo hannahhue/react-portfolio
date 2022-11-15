@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Navbar() {
+export default function Navbar({ currentPage, handlePageChange }) {
   return (
     <div>
       <header className="display-flex justify-space-between align-center p-2">
