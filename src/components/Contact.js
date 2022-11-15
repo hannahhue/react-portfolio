@@ -10,9 +10,8 @@ const styles = {
   },
 };
 
-export default function home() {
+export default function contact() {
   return (
-    //header img
     <div>
       <img src={catImg} />
       <div class="mb-3">
@@ -24,6 +23,17 @@ export default function home() {
           class="form-control"
           id="exampleFormControlInput1"
           placeholder="name@example.com"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">
+          Name
+        </label>
+        <input
+          type="name"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="Your Name"
         />
       </div>
       <div class="mb-3">

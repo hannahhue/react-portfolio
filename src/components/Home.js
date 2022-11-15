@@ -18,6 +18,7 @@ export default function home() {
         <div className="col-md-4">
           <img src={headerImg} className="card-img" alt="cloudcode" />
         </div>
+        {/* text info */}
         <div className="col-md-8">
           <div className="card-body">
             <h1 className="card-title">Hannah Hughes</h1>

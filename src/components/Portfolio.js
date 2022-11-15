@@ -4,6 +4,7 @@ import getaJobImg from "../images/getajob.PNG";
 import emTrackImg from "../images/em-track.png";
 import insomniaImg from "../images/insomnia.PNG";
 import teamGenImg from "../images/tem-gen.png";
+import codeImg from "../images/codequiz.png";
 
 const styles = {
   projectImg: {
@@ -62,11 +63,16 @@ export default function portfolio() {
       <div class="card bg-dark text-white" style={styles.projectImg}>
         <img src={emTrackImg} class="card-img" alt="..." />
         <div class="card-img-overlay">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">Employee Tracker</h5>
           <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            Keep track of employees and Update them through your terminal!
           </p>
+          <a
+            href="https://github.com/hannahhue/employee-tracker"
+            class="btn btn-primary"
+          >
+            View Github
+          </a>
         </div>
       </div>
 
@@ -99,6 +105,29 @@ export default function portfolio() {
             class="btn btn-primary"
           >
             View Github
+          </a>
+        </div>
+      </div>
+
+      {/*  */}
+      <div class="card bg-dark text-white" style={styles.projectImg}>
+        <img src={codeImg} class="card-img" alt="..." />
+        <div class="card-img-overlay">
+          <h5 class="card-title">Code Quiz</h5>
+          <p class="card-text">
+            Test your skills with a timed quiz all about coding!
+          </p>
+          <a
+            href="https://github.com/hannahhue/code-quiz"
+            class="btn btn-primary"
+          >
+            View Github
+          </a>
+          <a
+            href="https://hannahhue.github.io/code-quiz/"
+            class="btn btn-primary"
+          >
+            View Site
           </a>
         </div>
       </div>
