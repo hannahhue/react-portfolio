@@ -6,9 +6,7 @@ export default function Navbar() {
       <header className="display-flex justify-space-between align-center p-2">
         <span>
           <nav className="navbar navbar-expand-lg">
-            <a className="navbar-brand" href="#">
-              Hannah Hughes
-            </a>
+            <a className="navbar-brand">Hannah Hughes</a>
             <button
               className="navbar-toggler"
               type="button"
@@ -23,27 +21,59 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="navbarText">
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
+                  <a
+                    href="#home"
+                    onClick={() => handlePageChange("Home")}
+                    className={
+                      currentPage === "Home" ? "nav-link active" : "nav-link"
+                    }
+                  >
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/dashboard">
+                  <a
+                    href="#about"
+                    onClick={() => handlePageChange("About")}
+                    className={
+                      currentPage === "About" ? "nav-link active" : "nav-link"
+                    }
+                  >
                     About
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/profile">
+                  <a
+                    href="#portfolio"
+                    onClick={() => handlePageChange("Portfolio")}
+                    className={
+                      currentPage === "Portfolio"
+                        ? "nav-link active"
+                        : "nav-link"
+                    }
+                  >
                     Portfolio
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/profile">
+                  <a
+                    href="#contact"
+                    onClick={() => handlePageChange("Contact")}
+                    className={
+                      currentPage === "Contact" ? "nav-link active" : "nav-link"
+                    }
+                  >
                     Contact
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/profile">
+                  <a
+                    href="#resume"
+                    onClick={() => handlePageChange("Resume")}
+                    className={
+                      currentPage === "Resume" ? "nav-link active" : "nav-link"
+                    }
+                  >
                     Resume
                   </a>
                 </li>
