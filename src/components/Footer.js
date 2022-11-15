@@ -12,10 +12,10 @@ export default function footer() {
   return (
     <div>
       <div className="footer">
-        <a>
+        <a href="https://github.com/hannahhue">
           <img src={gitImg} style={styles.imgClick} />
         </a>
-        <a>
+        <a href="https://www.linkedin.com/in/hannah-hughes-585bba1b2/">
           <img src={linkImg} style={styles.imgClick} />
         </a>
       </div>
