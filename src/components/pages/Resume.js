@@ -1,5 +1,6 @@
 import React from "react";
 import resumeImg from "../images/resume.PNG";
+import resumeDownload from "../textFiles/hannahResume.pdf";
 
 const styles = {
   img: {
@@ -15,6 +16,13 @@ export default function resume() {
         class="btn btn-primary"
       >
         See It On Google
+      </a>
+      <a
+        href={resumeDownload}
+        download="HannahHughesResume.pdf"
+        class="btn btn-primary"
+      >
+        Download
       </a>
       <img src={resumeImg} />
     </div>
