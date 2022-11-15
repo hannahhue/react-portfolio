@@ -1,7 +1,5 @@
 import React from "react";
 import headerImg from "../images/cloudcode.png";
-import gitImg from "../images/gitimg.png";
-import linkImg from "../images/linkinimg.png";
 
 const styles = {
   img: {
