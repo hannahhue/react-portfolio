@@ -15,7 +15,7 @@ export default function contact() {
     <div>
       <img src={catImg} className="catGif" />
       <div className="mb-3">
-        <label for="exampleFormControlInput1" className="form-label">
+        <label htmlFor="exampleFormControlInput1" className="form-label">
           Email address
         </label>
         <input
@@ -26,7 +26,7 @@ export default function contact() {
         />
       </div>
       <div className="mb-3">
-        <label for="exampleFormControlInput1" className="form-label">
+        <label htmlFor="exampleFormControlInput1" className="form-label">
           Name
         </label>
         <input
@@ -37,7 +37,7 @@ export default function contact() {
         />
       </div>
       <div className="mb-3">
-        <label for="exampleFormControlTextarea1" className="form-label">
+        <label htmlFor="exampleFormControlTextarea1" className="form-label">
           Message
         </label>
         <textarea
