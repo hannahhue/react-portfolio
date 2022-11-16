@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import catImg from "../../images/cat-typing.gif";
 
 const styles = {
@@ -11,6 +12,23 @@ const styles = {
 };
 
 export default function Contact() {
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState(null);
+
+  function isValidEmail(email) {
+    return /\S+@\S+\.\S+/.test(email);
+  }
+
+  const handleChange = (event) => {
+    if (!isValidEmail(event.target.value)) {
+      setError("Email is invalid");
+    } else {
+      setError(null);
+    }
+
+    setMessage(event.target.value);
+  };
+
   return (
     <div>
       <img src={catImg} className="catGif" />
@@ -19,11 +37,14 @@ export default function Contact() {
           Email address
         </label>
         <input
-          type="email"
+          type="message"
           className="form-control"
-          id="exampleFormControlInput1"
+          id="message"
           placeholder="name@example.com"
+          value={message}
+          onChange={handleChange}
         />
+        {error && <h2 style={{ color: "red" }}>{error}</h2>}
       </div>
       <div className="mb-3">
         <label htmlFor="exampleFormControlInput1" className="form-label">
