@@ -4,7 +4,7 @@ import awardImg from "../../images/awardd.png";
 
 export default function About() {
   return (
-    <div className="about d-flex justify-content-center margin-auto">
+    <div className="about d-flex justify-content-center">
       <div className="row no-gutters">
         <div className="col-md-4">
           <img src={pfpImg} className="pfp card-img" alt="pfp" />

@@ -8,7 +8,7 @@ const styles = {
   },
 };
 
-export default function resume() {
+export default function Resume() {
   return (
     <div className="resume" style={styles.img}>
       <a

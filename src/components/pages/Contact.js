@@ -10,7 +10,7 @@ const styles = {
   },
 };
 
-export default function contact() {
+export default function Contact() {
   return (
     <div>
       <img src={catImg} className="catGif" />

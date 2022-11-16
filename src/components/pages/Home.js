@@ -10,7 +10,7 @@ const styles = {
   },
 };
 
-export default function home() {
+export default function Home() {
   return (
     //header img
     <div className="d-flex justify-content-center">

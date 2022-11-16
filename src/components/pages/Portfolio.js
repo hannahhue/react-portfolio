@@ -13,7 +13,7 @@ const styles = {
   },
 };
 
-export default function portfolio() {
+export default function Portfolio() {
   return (
     <div>
       {/*  */}
