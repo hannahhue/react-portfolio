@@ -41,6 +41,7 @@
 body {
   background-color: #384a72;
   color: #d1e0fd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* headers */
@@ -79,7 +80,15 @@ h2 {
 .row {
   justify-content: center;
   align-items: center;
+}
 
+.about {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.pfp {
+  border-radius: 30%;
 }
 
 /* cards */
@@ -102,11 +111,26 @@ h2 {
   padding: 0 20px 20px;
 }
 
-.card-img:hover {
-  opacity: 0.5;
+/* resume */
+.resume {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
-/* CSS */
+.resImg {
+  border-radius: 2%;
+}
+
+/* contactpg */
+.catGif {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 2%;
+}
+
+/* buttons */
 .btn {
   background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
   border: 0;

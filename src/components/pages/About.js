@@ -10,10 +10,10 @@ const styles = {
 
 export default function About() {
   return (
-    <div>
+    <div className="about d-flex justify-content-center">
       <div className="row no-gutters" style={styles.img}>
         <div className="col-md-4">
-          <img src={pfpImg} className="card-img" alt="pfp" />
+          <img src={pfpImg} className="pfp card-img" alt="pfp" />
         </div>
         <div className="col-md-8">
           <div className="card-body">
@@ -23,12 +23,16 @@ export default function About() {
               Helloo! I am 21 and currently a student within the UOT Full Stack
               Dev bootcamp and an aspiring web developer.
             </p>
+            <p className="card-text">
+              Love the process of coding and seeing the outcome, certified
+              problem solver!
+            </p>
             <p class="card-text">Located in Windsor, ON, Canada.</p>
           </div>
         </div>
       </div>
 
-      <div className="row no-gutters" style={styles.img}>
+      <div className="acc row no-gutters" style={styles.img}>
         <div className="col-md-4">
           <img src={awardImg} className="card-img" alt="award" />
         </div>

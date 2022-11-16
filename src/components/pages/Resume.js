@@ -10,21 +10,21 @@ const styles = {
 
 export default function resume() {
   return (
-    <div style={styles.img}>
+    <div className="resume" style={styles.img}>
       <a
         href="https://docs.google.com/document/d/10QxRcaCF4XN1ee-ewosbendNGBNQZgDD6SGR37eUp24/edit?usp=sharing"
-        class="btn btn-primary"
+        className="btn btn-primary"
       >
         See It On Google
       </a>
       <a
         href={resumeDownload}
         download="HannahHughesResume.pdf"
-        class="btn btn-primary"
+        className="btn btn-primary"
       >
         Download
       </a>
-      <img src={resumeImg} />
+      <img src={resumeImg} className="resImg" />
     </div>
   );
 }

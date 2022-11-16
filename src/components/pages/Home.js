@@ -3,7 +3,7 @@ import headerImg from "../../images/cloudcode.png";
 
 const styles = {
   img: {
-    maxWidth: "700px",
+    maxWidth: "1000px",
   },
   imgClick: {
     maxWidth: "80px",
@@ -13,7 +13,7 @@ const styles = {
 export default function home() {
   return (
     //header img
-    <div>
+    <div className="d-flex justify-content-center">
       <div className="row no-gutters" style={styles.img}>
         <div className="col-md-4">
           <img src={headerImg} className="card-img" alt="cloudcode" />
@@ -23,9 +23,9 @@ export default function home() {
           <div className="card-body">
             <h1 className="card-title">Hannah Hughes</h1>
             <h2 className="card-title">Full Stack Dev</h2>
+            <p className="card-text">Welcome to my portfolio!</p>
             <p className="card-text">
-              Welcome to my portfolio! View all my work and learn a little bit
-              more about me.
+              View all my work and learn a little bit more about me.
             </p>
           </div>
         </div>
