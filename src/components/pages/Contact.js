@@ -1,5 +1,5 @@
 import React from "react";
-import catImg from "../images/cat-typing.gif";
+import catImg from "../../images/cat-typing.gif";
 
 const styles = {
   img: {
@@ -46,7 +46,7 @@ export default function contact() {
           rows="3"
         ></textarea>
       </div>
-      <button>Send</button>
+      <a class="btn btn-primary">Send</a>
     </div>
   );
 }

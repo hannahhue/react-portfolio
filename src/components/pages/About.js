@@ -1,6 +1,6 @@
 import React from "react";
-import pfpImg from "../images/pfppp.jpg";
-import awardImg from "../images/awardd.png";
+import pfpImg from "../../images/pfppp.jpg";
+import awardImg from "../../images/awardd.png";
 
 const styles = {
   img: {

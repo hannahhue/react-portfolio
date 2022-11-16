@@ -1,5 +1,5 @@
 import React from "react";
-import headerImg from "../images/cloudcode.png";
+import headerImg from "../../images/cloudcode.png";
 
 const styles = {
   img: {
