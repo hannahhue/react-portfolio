@@ -4,21 +4,25 @@ import awardImg from "../../images/awardd.png";
 
 export default function About() {
   return (
-    <div className="about">
-      <div className="row">
-        <img src={pfpImg} className="pfp card-img-top" alt="pfp" />
-        <div className="card-body">
-          <h1 className="card-title">Hannah Hughes</h1>
-          <h2 className="card-title">Full Stack Dev</h2>
-          <p className="card-text">
-            Helloo! I am 21 and currently a student within the UOT Full Stack
-            Dev bootcamp and an aspiring web developer.
-          </p>
-          <p className="card-text">
-            Love the process of coding and seeing the outcome, certified problem
-            solver!
-          </p>
-          <p className="card-text">Located in Windsor, ON, Canada.</p>
+    <div className="about d-flex justify-content-center margin-auto">
+      <div className="row no-gutters">
+        <div className="col-md-4">
+          <img src={pfpImg} className="pfp card-img" alt="pfp" />
+        </div>
+        <div className="col-md-8">
+          <div className="card-body">
+            <h1 className="card-title">Hannah Hughes</h1>
+            <h2 className="card-title">Full Stack Dev</h2>
+            <p class="card-text">
+              Helloo! I am 21 and currently a student within the UOT Full Stack
+              Dev bootcamp and an aspiring web developer.
+            </p>
+            <p className="card-text">
+              Love the process of coding and seeing the outcome, certified
+              problem solver!
+            </p>
+            <p class="card-text">Located in Windsor, ON, Canada.</p>
+          </div>
         </div>
       </div>
 

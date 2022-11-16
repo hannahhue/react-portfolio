@@ -79,14 +79,6 @@ h2 {
 
 /* home pg */
 .row {
-  display: block;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
-
-.about {
   display: flex;
   justify-content: center;
   align-items: center;
