@@ -113,6 +113,15 @@ h5 {
   display: inline-flex;
 } 
 
+/* contact */
+#cat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 5%;
+}
+
 /* resume */
 .resume {
   justify-content: center;
@@ -121,7 +130,6 @@ h5 {
 }
 
 .resImg {
-
   border-radius: 2%;
 }
 

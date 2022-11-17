@@ -2,15 +2,6 @@ import React from "react";
 import { useState } from "react";
 import catImg from "../../images/cat-typing.gif";
 
-const styles = {
-  img: {
-    maxWidth: "700px",
-  },
-  imgClick: {
-    maxWidth: "80px",
-  },
-};
-
 export default function Contact() {
   // validate email
   const [email, setEmail] = useState("");
@@ -33,7 +24,7 @@ export default function Contact() {
   // render
   return (
     <div>
-      <img src={catImg} className="catGif" />
+      <img id="cat" src={catImg} />
       <div className="mb-3">
         <label htmlFor="exampleFormControlInput1" className="form-label">
           Email address
