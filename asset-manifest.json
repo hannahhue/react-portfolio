@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2864b9bd.css",
-    "main.js": "/react-portfolio/static/js/main.05da666f.js",
+    "main.css": "/react-portfolio/static/css/main.c6ed4a8a.css",
+    "main.js": "/react-portfolio/static/js/main.753c9b65.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/awardd.png": "/react-portfolio/static/media/awardd.f5f0ecd5d3377eef6a4b.png",
     "static/media/tem-gen.png": "/react-portfolio/static/media/tem-gen.02e33a90d0928b3ddbef.png",
@@ -9,21 +9,21 @@
     "static/media/getajob.PNG": "/react-portfolio/static/media/getajob.728426fad4ebfeebcf60.PNG",
     "static/media/pfppp.jpg": "/react-portfolio/static/media/pfppp.b21add1228da652c7788.jpg",
     "static/media/cat-typing.gif": "/react-portfolio/static/media/cat-typing.3612a7caa91ac43648a0.gif",
+    "static/media/cloudcode1.jpg": "/react-portfolio/static/media/cloudcode1.815243d899c01f2b5904.jpg",
     "static/media/hannahResume.pdf": "/react-portfolio/static/media/hannahResume.abb2b519e59afdcddb57.pdf",
     "static/media/resume.PNG": "/react-portfolio/static/media/resume.8536cdd0217d808c4dd1.PNG",
     "static/media/em-track.png": "/react-portfolio/static/media/em-track.16e02760b8bec31effa3.png",
     "static/media/insomnia.PNG": "/react-portfolio/static/media/insomnia.718aaa905ca8ad201d3c.PNG",
     "static/media/codequiz.png": "/react-portfolio/static/media/codequiz.12c7722f8682af5326cb.png",
     "static/media/linkinimg.png": "/react-portfolio/static/media/linkinimg.ba884e1f9ad4362348c1.png",
-    "static/media/cloudcode.png": "/react-portfolio/static/media/cloudcode.91434de50ceeb7b86929.png",
     "static/media/stack.png": "/react-portfolio/static/media/stack.2400c752617663767078.png",
     "index.html": "/react-portfolio/index.html",
-    "main.2864b9bd.css.map": "/react-portfolio/static/css/main.2864b9bd.css.map",
-    "main.05da666f.js.map": "/react-portfolio/static/js/main.05da666f.js.map",
+    "main.c6ed4a8a.css.map": "/react-portfolio/static/css/main.c6ed4a8a.css.map",
+    "main.753c9b65.js.map": "/react-portfolio/static/js/main.753c9b65.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2864b9bd.css",
-    "static/js/main.05da666f.js"
+    "static/css/main.c6ed4a8a.css",
+    "static/js/main.753c9b65.js"
   ]
 }
