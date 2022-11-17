@@ -12,6 +12,7 @@ const styles = {
 };
 
 export default function Contact() {
+  // validate email
   const [message, setMessage] = useState("");
   const [error, setError] = useState(null);
 
@@ -29,6 +30,7 @@ export default function Contact() {
     setMessage(event.target.value);
   };
 
+  // render
   return (
     <div>
       <img src={catImg} className="catGif" />
