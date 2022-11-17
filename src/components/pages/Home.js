@@ -7,7 +7,7 @@ export default function Home() {
     <div className="d-flex justify-content-center">
       <div className="row no-gutters">
         <div className="col-md-4">
-          <img src={headerImg} className="card-img" alt="cloudcode" />
+          <img src={headerImg} className="card-img home" alt="cloudcode" />
         </div>
         {/* text info */}
         <div className="col-md-8">
