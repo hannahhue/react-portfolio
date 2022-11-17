@@ -2,13 +2,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
 This is my personal portfolio. Created to have a personal and profesional place to store and show off my projects. My motivation was to try and showcase my strong suits and dedication my new career choice. Also to track my oldest (worst) to new and and improved coding skills I will gain over time. This will allow future employers to view (hopefully be impressed) and potentally hire me. Throughout this challenge I learned about starting code from scratch, implementing cleaning up repetative code, implementing react and a whole new way of deployment.
 
 ## Table of Contents (Optional)
@@ -20,7 +13,9 @@ This is my personal portfolio. Created to have a personal and profesional place 
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+No install required just follow the link and explore!
+
+site: https://hannahhue.github.io/react-portfolio/
 
 ## Usage
 
