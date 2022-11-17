@@ -9,6 +9,8 @@ Provide a short description explaining the what, why, and how of your project. U
 - What problem does it solve?
 - What did you learn?
 
+This is my personal portfolio. Created to have a personal and profesional place to store and show off my projects. My motivation was to try and showcase my strong suits and dedication my new career choice. Also to track my oldest (worst) to new and and improved coding skills I will gain over time. This will allow future employers to view (hopefully be impressed) and potentally hire me. Throughout this challenge I learned about starting code from scratch, implementing cleaning up repetative code, implementing react and a whole new way of deployment.
+
 ## Table of Contents (Optional)
 
 - [Installation](#installation)
