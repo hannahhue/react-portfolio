@@ -1,20 +1,11 @@
 import React from "react";
 import headerImg from "../../images/cloudcode1.jpg";
 
-const styles = {
-  img: {
-    maxWidth: "1000px",
-  },
-  imgClick: {
-    maxWidth: "80px",
-  },
-};
-
 export default function Home() {
   return (
     //header img
     <div className="d-flex justify-content-center">
-      <div className="row no-gutters" style={styles.img}>
+      <div className="row no-gutters">
         <div className="col-md-4">
           <img src={headerImg} className="card-img" alt="cloudcode" />
         </div>

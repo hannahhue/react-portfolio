@@ -53,6 +53,14 @@ h2 {
   color: #97afdb;
 }
 
+h5 {
+  color: #384a72;
+}
+
+.desc {
+  color: #384a72;
+}
+
 /* nabar */
 .navbar {
   background-color: #d1e0fd;
@@ -97,25 +105,12 @@ h2 {
   max-width: 200px;
 }
 
-/* cards */
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-}
+/* proj cards */
 .card {
-  flex: 0 0 200px;
   margin: 10px;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
   display: inline-flex;
-
 } 
-.card img {
-  max-width: 100%;
-}
-.card .text {
-  padding: 0 20px 20px;
-}
 
 /* resume */
 .resume {
@@ -128,12 +123,9 @@ h2 {
   border-radius: 2%;
 }
 
-/* contactpg */
-.catGif {
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  border-radius: 2%;
+/* port */
+.projImg {
+  max-width: 50px;
 }
 
 /* buttons */
@@ -151,6 +143,7 @@ h2 {
   outline: transparent;
   padding: 0 1rem;
   margin: auto;
+  margin-left: 2px;
   text-align: center;
   text-decoration: none;
   transition: box-shadow .2s ease-in-out;
