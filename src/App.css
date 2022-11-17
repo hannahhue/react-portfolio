@@ -85,6 +85,13 @@ h2 {
   margin: auto;
 }
 
+/* homeimg */
+.card-img {
+  margin-right: 50px;
+  width: 350px;
+}
+
+/* about */
 .pfp {
   border-radius: 30%;
   max-width: 200px;
