@@ -13,21 +13,21 @@ const styles = {
 
 export default function Contact() {
   // validate email
-  const [message, setMessage] = useState("");
+  const [email, setEmail] = useState("");
   const [error, setError] = useState(null);
 
-  function isValidEmail(email) {
+  function validEmail(email) {
     return /\S+@\S+\.\S+/.test(email);
   }
 
   const handleChange = (event) => {
-    if (!isValidEmail(event.target.value)) {
+    if (!validEmail(event.target.value)) {
       setError("Email is invalid");
     } else {
       setError(null);
     }
 
-    setMessage(event.target.value);
+    setEmail(event.target.value);
   };
 
   // render
@@ -39,11 +39,11 @@ export default function Contact() {
           Email address
         </label>
         <input
-          type="message"
+          type="email"
           className="form-control"
-          id="message"
+          id="email"
           placeholder="name@example.com"
-          value={message}
+          value={email}
           onChange={handleChange}
         />
         {error && <h2 style={{ color: "red" }}>{error}</h2>}
