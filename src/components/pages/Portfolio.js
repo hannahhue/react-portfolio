@@ -1,7 +1,7 @@
 import React from 'react';
 import Projects from '../Projects';
 import learnMyWayImg from '../../images/learn-myway.png';
-import burgECom from '../../images/burg-comm.png';
+import burgEComImg from '../../images/burg-comm.png';
 import getaJobImg from '../../images/getajob.PNG';
 import emTrackImg from '../../images/em-track.png';
 import insomniaImg from '../../images/insomnia.PNG';
@@ -12,8 +12,8 @@ const projects = [
   {
     id: 1,
     title: 'Burger E-comm',
-    description: 'Team built Project, using express network and find a job!',
-    img: burgECom,
+    description: 'Team built Project, using mern stack and graphql',
+    img: burgEComImg,
     git: 'https://github.com/hannahhue/will-b-hangry',
     site: 'https://will-b-hangry.herokuapp.com/',
   },
