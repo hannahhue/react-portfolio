@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.b04156a8.css",
-    "main.js": "/react-portfolio/static/js/main.5d0ec53d.js",
+    "main.js": "/react-portfolio/static/js/main.da6b565c.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/burg-comm.png": "/react-portfolio/static/media/burg-comm.6f471599787a5249c3ea.png",
     "static/media/tem-gen.png": "/react-portfolio/static/media/tem-gen.02e33a90d0928b3ddbef.png",
     "static/media/learn-myway.png": "/react-portfolio/static/media/learn-myway.189dc8375f1e416c7173.png",
     "static/media/getajob.PNG": "/react-portfolio/static/media/getajob.728426fad4ebfeebcf60.PNG",
@@ -18,11 +19,11 @@
     "static/media/stack.png": "/react-portfolio/static/media/stack.2400c752617663767078.png",
     "index.html": "/react-portfolio/index.html",
     "main.b04156a8.css.map": "/react-portfolio/static/css/main.b04156a8.css.map",
-    "main.5d0ec53d.js.map": "/react-portfolio/static/js/main.5d0ec53d.js.map",
+    "main.da6b565c.js.map": "/react-portfolio/static/js/main.da6b565c.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b04156a8.css",
-    "static/js/main.5d0ec53d.js"
+    "static/js/main.da6b565c.js"
   ]
 }
