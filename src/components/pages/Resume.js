@@ -11,6 +11,7 @@ const styles = {
 export default function Resume() {
   return (
     <div className="resume" style={styles.img}>
+      <img src={resumeImg} className="resImg" />
       <a
         href="https://docs.google.com/document/d/10QxRcaCF4XN1ee-ewosbendNGBNQZgDD6SGR37eUp24/edit?usp=sharing"
         className="btn btn-primary"
@@ -24,7 +25,6 @@ export default function Resume() {
       >
         Download
       </a>
-      <img src={resumeImg} className="resImg" />
     </div>
   );
 }

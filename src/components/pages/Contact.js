@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import catImg from "../../images/cat-typing.gif";
 
 export default function Contact() {
   // validate email
@@ -24,7 +23,6 @@ export default function Contact() {
   // render
   return (
     <div>
-      <img id="cat" src={catImg} />
       <div className="mb-3">
         <label htmlFor="exampleFormControlInput1" className="form-label">
           Email address
